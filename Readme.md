@@ -7,14 +7,18 @@ Este projeto se trata de um banco de dados de uma empresa fictícia do ramo de v
 ` git clone https://github.com/GabrielCv54/pp_empresa_vendas.git `
 
 ## Estrutura de criação
+
+```
 Tabela Fornecedor
-``` CREATE TABLE FORNECEDOR(
+ CREATE TABLE FORNECEDOR(
 	ID_FORNECEDOR INTEGER PRIMARY KEY,
 	NOME_FORNECEDOR VARCHAR(50),
 	CONTATO INTEGER,
 	ENDEREÇO TEXT,
    ); ```
-### Tabela Clientes
+
+
+ Tabela Clientes
  ``` CREATE TABLE CLIENTES(
 	CPF VARCHAR(11) PRIMARY KEY,
 	NOME_CLIENTE VARCHAR(50),
