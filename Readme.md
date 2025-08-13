@@ -13,13 +13,13 @@ Este projeto se trata de um banco de dados de uma empresa fictícia do ramo de v
 	NOME_FORNECEDOR VARCHAR(50),
 	CONTATO INTEGER,
 	ENDEREÇO TEXT,
-); ```
+   ); ```
 ### Tabela Clientes
-``` CREATE TABLE CLIENTES(
+ ``` CREATE TABLE CLIENTES(
 	CPF VARCHAR(11) PRIMARY KEY,
 	NOME_CLIENTE VARCHAR(50),
-	ENDEREÃ‡O TEXT,
+	ENDEREÇO TEXT,
 	TELEFONE BIGINT ,
 	EMAIL VARCHAR(255),
 	DATA_CADASTRO DATE
-) ```
+);```
